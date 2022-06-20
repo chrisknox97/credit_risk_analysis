@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-### To utilize oversampling algorithims (RandomOverSampler, SMOTE), undersampling algorithms (ClusterCentroids), combinational algorithms (SMOTEENN), and machine learning models (BalancedRandomForestClassifier, EasyEnsembleClassifier); determining which presents the best predictive measures of credit risk. 
+### To utilize oversampling algorithims (``RandomOverSampler``, ``SMOTE``), undersampling algorithms (``ClusterCentroids``), combinational algorithms (``SMOTEENN``), and machine learning models (``BalancedRandomForestClassifier``, ``EasyEnsembleClassifier``); determining which presents the best predictive measures of credit risk. 
 
 ## Results
 
