@@ -26,17 +26,17 @@
 
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ------------- | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
-| High Risk     | 0.66              | 0.61             | 0.69             | 0.72     | 0.70                           | 0.92                   |
-| Low Risk      | 0.62              | 0.69             | 0.40             | 0.57     | 0.87                           | 0.94                   |
-| Overall Risk  | 0.62              | 0.69             | 0.40             | 0.57     | 0.87                           | 0.94                   |
+| High Risk     | 0.66              | 0.61             | 0.69             | 0.72     | 0.70                           | **0.92**               |
+| Low Risk      | 0.62              | 0.69             | 0.40             | 0.57     | 0.87                           | **0.94**               |
+| Overall Risk  | 0.62              | 0.69             | 0.40             | 0.57     | 0.87                           | **0.94**               |
 
 ### F-1 Scores
 
 
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ------------- | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
-| High Risk     | 0.02              | 0.02             | 0.01             | 0.02     | 0.06                           | 0.16                   |
-| Low Risk      | 0.76              | 0.81             | 0.57             | 0.72     | 0.93                           | 0.97                   |
-| Overall Risk  | 0.76              | 0.81             | 0.56             | 0.72     | 0.93                           | 0.97                   |
+| High Risk     | 0.02              | 0.02             | 0.01             | 0.02     | 0.06                           | **0.16**               |
+| Low Risk      | 0.76              | 0.81             | 0.57             | 0.72     | 0.93                           | **0.97**               |
+| Overall Risk  | 0.76              | 0.81             | 0.56             | 0.72     | 0.93                           | **0.97**               |
 
 ## Summary
