@@ -10,6 +10,7 @@
 
 ### Balanced Accuracy Scores
 
+
 | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
 | 64%               | 65%              | 54%              | 64%      | 79%                            |  **93%**               |
