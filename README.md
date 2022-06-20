@@ -58,3 +58,8 @@
 | Overall Risk  | 0.76              | 0.81             | 0.56             | 0.72     | 0.93                           | **0.97**               |
 
 ## Summary
+
+### The results of this dataset remained rather clear cut across all metrics (Balanced Accuracy, Precision, Recall, & F-1 Scores), with ``EasyEnsembleClassifer`` notching the highest measures. Similarly, ``ClusterCentroids`` reatined the lowest measures across all our metrics, while ``BalancedRandomForestClassifier`` represented a viable alternative with its metrics trailing only the aforementioned ``EasyEnsembleClassifer``. 
+
+As such, out of the six algorithms testsed against the LendingClub dataset, we suggest using ``EasyEnsembleClassifer`` due to its high accuracy, precision and recall. Additionally, we would also suggest ``BalancedRandomForestClassifier`` as a viable alternative, albeit less enthusicatically. 
+
