@@ -22,6 +22,10 @@
 
 ### Precision Scores
 
+* A Precision Score is a score that quantifies an algorithms ability to avoid false positives. 
+* Similar to a Balanced Accuracy Score, precision is measured on a scale of 0-1, with the best measures remaining closer to 1. 
+* Within this dataset, ``EasyEnsembleClassifer`` scored highest across all metrics, while ``ClusterCentroids`` and ``SMOTEENN`` scored the lowest. 
+
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ------------- | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
 | High Risk     | 0.01              | 0.01             | 0.01             | 0.01     | 0.03                           | **0.09**               |
@@ -30,6 +34,10 @@
 
 ### Recall Scores
 
+* A Recall Score is a score used to quantify the amount of 'true' positives against actual positive results. 
+* Like our previous measures, recall is measured on a scale of 0-1, whith scores closer to 1 remaining preferable. 
+* Our dataset's highest recall scores across all metrics belonged to ``EasyEnsembleClassifer`` while the lowest belonged to ``ClusterCentroids``.
+
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ------------- | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
 | High Risk     | 0.66              | 0.61             | 0.69             | 0.72     | 0.70                           | **0.92**               |
@@ -37,6 +45,10 @@
 | Overall Risk  | 0.62              | 0.69             | 0.40             | 0.57     | 0.87                           | **0.94**               |
 
 ### F-1 Scores
+
+* Finally, the F-1 Score is the mean of our precision and recall scores; as such it can be useful if either recall or precision remains partciaurly skewed. 
+* As such, F-1 Scores are measured on a 0-1 scale, with scores nearest to 1 representing the most predictive algorithms. 
+* For our dataset, ``EasyEnsembleClassifer`` had the best results across all metrics, while ``ClusterCentroids`` once again had the worst. 
 
 
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
