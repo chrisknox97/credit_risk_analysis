@@ -6,7 +6,7 @@
 
 ## Results
 
-### As referenced above, there were six algorithms used to predict credit risk, using a credit card dataset from LendingClub. The results of these algorithms are listed below:
+### As referenced above, there were six algorithms used to predict credit risk, using a credit card dataset from LendingClub. The results of these algorithms are listed below with the highest measures in **bold**:
 
 ### Balanced Accuracy Scores
 
