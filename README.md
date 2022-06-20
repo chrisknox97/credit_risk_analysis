@@ -6,12 +6,12 @@
 
 ## Results
 
-### As referneced above there were six algorithms used to predict credit risk, using a credit card dataset from LendingClub. The results of these algorithms are listed below:
+### As referenced above, there were six algorithms used to predict credit risk, using a credit card dataset from LendingClub. The results of these algorithms are listed below:
 
 ### Balanced Accuracy Scores
 
 * A Balanced Accuracy Score is used with imbalanced datasets and attempts to account for that imbalance by combining sensitivity and specificity together, and dividing that measure in half. 
-* Balanced Accuracy Scores are measured on a scale of 0-1; the closer the number is to 1, the more predictive said algorith remains. 
+* Balanced Accuracy Scores are measured on a scale of 0-1; the closer the number is to 1, the more predictive said algorithm remains. 
 * Of the Balanced Accuracy Scores in this dataset, ``EasyEnsembleClassifer`` easily topped all others, while ``ClusterCentroids`` came in dead last. 
 
 
@@ -35,7 +35,7 @@
 ### Recall Scores
 
 * A Recall Score is a score used to quantify the amount of 'true' positives against actual positive results. 
-* Like our previous measures, recall is measured on a scale of 0-1, whith scores closer to 1 remaining preferable. 
+* Like our previous measures, recall is measured on a scale of 0-1, with scores closer to 1 remaining preferable. 
 * Our dataset's highest recall scores across all metrics belonged to ``EasyEnsembleClassifer`` while the lowest belonged to ``ClusterCentroids``.
 
 |               | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
@@ -46,7 +46,7 @@
 
 ### F-1 Scores
 
-* Finally, the F-1 Score is the mean of our precision and recall scores; as such it can be useful if either recall or precision remains partciaurly skewed. 
+* Finally, the F-1 Score is the mean of our precision and recall scores; as such it can be useful if either recall or precision remains particuarly skewed. 
 * As such, F-1 Scores are measured on a 0-1 scale, with scores nearest to 1 representing the most predictive algorithms. 
 * For our dataset, ``EasyEnsembleClassifer`` had the best results across all metrics, while ``ClusterCentroids`` once again had the worst. 
 
@@ -66,5 +66,5 @@
 
 ### The results of this dataset remained rather clear cut across all metrics (Balanced Accuracy, Precision, Recall, & F-1 Scores), with ``EasyEnsembleClassifer`` notching the highest measures. Similarly, ``ClusterCentroids`` reatined the lowest measures across all our metrics, while ``BalancedRandomForestClassifier`` represented a viable alternative with its metrics trailing only the aforementioned ``EasyEnsembleClassifer``. 
 
-### As such, out of the six algorithms testsed against the LendingClub dataset, we suggest using ``EasyEnsembleClassifer`` due to its high accuracy, precision and recall. Additionally, we would also suggest ``BalancedRandomForestClassifier`` as a viable alternative, albeit less enthusicatically. 
+### As such, out of the six algorithms tested against the LendingClub dataset, we suggest using ``EasyEnsembleClassifer`` due to its high accuracy, precision and recall. Additionally, we would also suggest ``BalancedRandomForestClassifier`` as a viable alternative, albeit less enthusiastically. 
 
