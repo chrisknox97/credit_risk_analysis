@@ -11,7 +11,7 @@
 ### Balanced Accuracy Scores
 
 * A Balanced Accuracy Score is used with imbalanced datasets and attempts to account for that imbalance by combining sensitivity and specificity together, and dividing that measure in half. 
-* Balanced Accuracy Scores are measured on a scale of 0-1, with a number to 1 suggesting the algorithm is more predictive. 
+* Balanced Accuracy Scores are measured on a scale of 0-1; the closer the number is to 1, the more predictive said algorith remains. 
 * Of the Balanced Accuracy Scores in this dataset, ``EasyEnsembleClassifer`` easily topped all others, while ``ClusterCentroids`` came in dead last. 
 
 
