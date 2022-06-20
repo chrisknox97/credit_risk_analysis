@@ -10,10 +10,15 @@
 
 ### Balanced Accuracy Scores
 
+* A Balanced Accuracy Score is used with imbalanced datasets and attempts to account for that imbalance by combining sensitivity and specificity together, and dividing that measure in half. 
+* Balanced Accuracy Scores are measured on a scale of 0-1, with a number to 1 suggesting the algorithm is more predictive. 
+* Of the Balanced Accuracy Scores in this dataset, ``EasyEnsembleClassifer`` easily topped all others, while ``ClusterCentroids`` came in dead last. 
+
 
 | RandomOverSampler | SMOTE            | ClusterCentroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ----------------- | ---------------- | ---------------- | -------- | ------------------------------ | ---------------------- |
 | 64%               | 65%              | 54%              | 64%      | 79%                            |  **93%**               |
+
 
 ### Precision Scores
 
