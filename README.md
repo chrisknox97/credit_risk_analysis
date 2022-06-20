@@ -57,6 +57,8 @@
 | Low Risk      | 0.76              | 0.81             | 0.57             | 0.72     | 0.93                           | **0.97**               |
 | Overall Risk  | 0.76              | 0.81             | 0.56             | 0.72     | 0.93                           | **0.97**               |
 
+### Screenshots
+
 * Screenshots of these Balanced Accuracy Scores can be found [here](https://github.com/chrisknox97/credit_risk_analysis/tree/main/PNGs/Balanced%20Accuracy).
 * Screenshots of these Classification Reports can be found [here](https://github.com/chrisknox97/credit_risk_analysis/tree/main/PNGs/Classification%20Report).
 
